@@ -28,6 +28,8 @@ Finally, I needed the call to get the list of connected devices. This request ge
 
 With all this information is relatively simple to create a script to get the list of devices each 60 seconds and compare it with the previous value stored in a local json file.
 
+To use the provided example you only have to install the python requirements, change your user id and password and fulfill the Telegram Bot chat id and token. Then you can run the example. It has been made only for Python3.
+
 ## Next steps and ToDo
 I am finishing the testing phase of this example and I know that I am not a developer so I have a lot of things to improve in the script. Please, feel free to open a pull request or contact me if you have some questions to be clarified or some ideas to add.
 
