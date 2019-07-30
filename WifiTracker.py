@@ -116,7 +116,7 @@ def get_connected_device_list(token, line):
             try:
                 log_file = open(log_application_filename,"a")
                 log_file.write("[" + time.asctime(time.localtime(time.time())) + "] Token not valid" +'\n')
-                log_file.writable("[" + time.asctime(time.localtime(time.time())) + "] Getting auth token" +'\n')
+                log_file.write("[" + time.asctime(time.localtime(time.time())) + "] Getting auth token" +'\n')
                 log_file.close()
 
             except IOError:
